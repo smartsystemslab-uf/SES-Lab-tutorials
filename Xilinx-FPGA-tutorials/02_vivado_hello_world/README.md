@@ -1,8 +1,8 @@
 This guide will walk you through the Vivado design tool.
-The necessary source files are included in the folder.
 
-Depending on the availability, the board provided to the student
-can be different than the indicated board on the tutorial.
+The current board for this tutorial is the DE10-Lite, please make sure to select the MAX10 FPGA device support instead of the Cyclone V support when installing Quartus. Please also use the Pin selections provided, if you use the selection in the tutorial the program will not work.
 
-In that case, the only thing that will change, is the pin configuration.
-Students may have to modify the section that implements the pin configuration.
+Please also note to not use the code provided in section 3.a, use the code in section 3.b. There are errors.
+
+Depending on the availability, the board provided to the student can be different than the indicated board on the tutorial.
+
