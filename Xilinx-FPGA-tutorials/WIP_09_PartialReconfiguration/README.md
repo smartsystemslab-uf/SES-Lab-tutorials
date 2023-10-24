@@ -1,2 +1,2 @@
 All materials in these folders are from Dr. Daniel Llamocca, of the ECE Department at Oakland University.
-Please open the labs labelled with 01 first for links to file downloads and please heed the README's in these folders.
+Please follow the order of the labs, and make sure you click on the links to file downloads within each 01__.pdf.
