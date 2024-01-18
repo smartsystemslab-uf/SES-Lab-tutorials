@@ -74,25 +74,27 @@ module top (
     
     // HDMIT Transmit + clock video timing 
     hdmi_transmit hdmi_transmit_inst ( 
-    
-        .clk125         (clk125), 
-        .pixel          (pixel), 
+        // Add the remaining components here 
+
+        
+        .clk125         (), 
+        .pixel          (), 
         
         
         // Shared video interface to the rest of the system 
-        
-        .pixel_clk      (pixel_clk), 
-        .rst            (rst),
-        .active         (active),
-        .fsync          (fsync),
-        .hpos           (hpos),
-        .vpos           (vpos), 
-        
-        .tmds_tx_clk_p  (tmds_tx_clk_p),  
-        .tmds_tx_clk_n  (tmds_tx_clk_n),
     
-        .tmds_tx_data_p (tmds_tx_data_p), 
-        .tmds_tx_data_n (tmds_tx_data_n)
+        .pixel_clk      (), 
+        .rst            (),
+        .active         (),
+        .fsync          (),
+        .hpos           (),
+        .vpos           (), 
+        
+        .tmds_tx_clk_p  (),  
+        .tmds_tx_clk_n  (),
+    
+        .tmds_tx_data_p (), 
+        .tmds_tx_data_n ()
         
      ); 
      
