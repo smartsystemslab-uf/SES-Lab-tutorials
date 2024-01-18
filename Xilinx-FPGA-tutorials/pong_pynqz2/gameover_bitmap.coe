@@ -1,6 +1,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; FPGA Revolution Open Bootcamp
-; Episode 33 - Pong game over HDMI 1280x720p @60fps
+; 
+; Pong game over HDMI 1280x720p @60fps
 ;
 ; 1280 x 200 bitmap
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
