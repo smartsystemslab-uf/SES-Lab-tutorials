@@ -108,23 +108,23 @@ module top (
      
      object #( 
 
- .HRES      (HRES),
- .VRES      (VRES),
- .COLOR     (COLOR_OBJ),
- .PADDLE_H  (PADDLE_H) 
+ .HRES      (),
+ .VRES      (),
+ .COLOR     (),
+ .PADDLE_H  () 
 )
 
 object_inst
 
 
     (
-       .pixel_clk   (pixel_clk),
-       .rst         (rst || game_over),
-       .fsync       (fsync),  
-       .hpos        (hpos), 
-       .vpos        (vpos), 
-       .pixel       (pixel_obj) , 
-       .active      (active_obj)
+       .pixel_clk   (),
+       .rst         (),
+       .fsync       (),  
+       .hpos        (), 
+       .vpos        (), 
+       .pixel       () , 
+       .active      ()
         
         
     );
@@ -133,11 +133,11 @@ object_inst
         
          paddle #( 
 
- .HRES      (HRES),
- .VRES      (VRES),
- .PADDLE_W  (PADDLE_W),
- .PADDLE_H  (PADDLE_H),
- .COLOR     (COLOR_PAD)
+ .HRES      (),
+ .VRES      (),
+ .PADDLE_W  (),
+ .PADDLE_H  (),
+ .COLOR     ()
   
 )
 
@@ -145,18 +145,18 @@ paddle_inst
 
 
     (
-       .pixel_clk   (pixel_clk),
-       .rst         (rst || game_over),
-       .fsync       (fsync),  
-       .hpos        (hpos), 
-       .vpos        (vpos), 
+       .pixel_clk   (),
+       .rst         (),
+       .fsync       (),  
+       .hpos        (), 
+       .vpos        (), 
        
-       .right       (right),
-       .left        (left), 
+       .right       (),
+       .left        (), 
        
        
-       .pixel       (pixel_paddle) , 
-       .active      (active_paddle)
+       .pixel       () , 
+       .active      ()
         
         
     );
